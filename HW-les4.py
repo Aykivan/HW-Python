@@ -79,4 +79,12 @@ print(f'Макчимальное количество ягод - {max_yagod}')
 
 # Решение задачи я нашел, хочется узнать его оптимальную версию 
 
+# beries_list = [int(input('Введите кол-во ягод: ')) for _ in range(int(input('Введите кол-во кустов: ')))]
+# # 3 2 5 7 1 4 8
+# maxx = 0
+# for ind in range(0, len(beries_list)):
+#     if beries_list[ind] + beries_list[ind - 1] + beries_list[ind - 2] > maxx:
+#         maxx = beries_list[ind] + beries_list[ind - 1] + beries_list[ind - 2]
+# print(maxx)
+
 # ---------------------------------------------------------------------------------------------------------------------------------------
